@@ -282,6 +282,12 @@ a {
     animation: rotate 10s linear -5s infinite;
     z-index: 20;
   }
+  &.wave-90:before {
+    bottom: 90%;
+  }
+  &.wave-90:after {
+    bottom: 93%;
+  }
   &.wave-85:before {
     bottom: 85%;
   }
@@ -305,6 +311,12 @@ a {
   }
   &.wave-65:after {
     bottom: 68%;
+  }
+  &.wave-40:before {
+    bottom: 40%;
+  }
+  &.wave-40:after {
+    bottom: 43%;
   }
 }
 
